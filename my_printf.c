@@ -16,10 +16,11 @@ int _printf(const char *format, ...)
 	va_list parameter_list;
 
 	va_start(parameter_list, format);
+
 	for (n = 0; format[n] != '\0'; n++);
 	{
-		if(format[n] != '%')
-			return(format[n]);
+		if (format[n] != '%')
+			return (format[n]);
 		else
 		{
 			switch (format[n + 1])
@@ -35,7 +36,7 @@ int _printf(const char *format, ...)
 					break;
 
 				default:
-					return(format[n]);
+				       	return (format[n]);
 					continue;
 			}
 		}
