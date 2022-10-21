@@ -15,7 +15,7 @@ int _printf(const char *format, ...)
 	int n;
 
 	va_start(parameter_list, format);
-	done = vfprintf(stdout, format, parameter_list);
+	n = vfprintf(stdout, format, parameter_list);
 	va_end(parameter_list);
 	return (n);
 }
