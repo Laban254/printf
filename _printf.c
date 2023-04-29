@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _printf - function to print anything
+ * _printf - this is a function to print anything
  *
- * @format: types of argument passed to the function
+ * @format: its the types of argument passed to the function
  *
- *  Return: number of characters printed
+ *  Return: number of characters printed.
  *
  */
 
